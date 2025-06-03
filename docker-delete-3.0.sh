@@ -74,7 +74,7 @@ function showHelp(){
     echo -e "\033[31;1m docker-delete -dt <image repository> <image tag>    [description: delete specified tag of specified image repository ] \033[0m"
     echo -e "\033[31;1m docker-delete -dt <image repository>                [description: delete all tags of specified image repository ] \033[0m"
     echo -e "\033[31;1m docker-delete -keep <N>                             [description: keep last N tags for all repositories] \033[0m"
-    echo -e "\033[31;1m docker-delete -keep-repo <repo> <N>                  [description: keep last N tags for specified repository] \033[0m"
+    echo -e "\033[31;1m docker-delete -keep-repo <repo> <N>                 [description: keep last N tags for specified repository] \033[0m"
 }
 
 function checkRepositoryExist(){
